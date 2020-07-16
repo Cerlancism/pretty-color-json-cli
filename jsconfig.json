@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "esnext"
+        ],
+    },
+    "typeAcquisition": {
+        "exclude": [
+            "mocha"
+        ]
+    }
+}
