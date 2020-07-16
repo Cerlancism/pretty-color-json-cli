@@ -5,7 +5,7 @@ A NodeJS command line utility to pretty print JSON string like an object literal
 ### Similar tools:  
 
 - [prettyjson](https://www.npmjs.com/package/prettyjson): pretty color prints JSON as YAML
-- [json-format-cli](https://www.npmjs.com/package/json-format-cli): pretty prints JSON without color.
+- [json-format-cli](https://www.npmjs.com/package/json-format-cli): pretty prints JSON without color
 
 ## Installation
 `$ npm install -g https://github.com/Cerlancism/pretty-color-json-cli`
