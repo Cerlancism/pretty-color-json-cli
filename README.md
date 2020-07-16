@@ -1,6 +1,6 @@
 # pretty-color-json-cli
 
-A NodeJS command line utility to pretty print JSON string like an object literal on the terminal with color using the native `console.log` and `inspect` from NodeJS.
+A NodeJS command line utility to pretty print JSON string like an object literal with color to the terminal using the native `console.log` and `inspect` from NodeJS.
 
 ### Similar tools:  
 
