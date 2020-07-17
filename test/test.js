@@ -5,7 +5,7 @@ import { spawnSync } from "child_process"
 import assert from "assert";
 
 const simpleJSON = `{ "test": "test" }`
-const simpleExpectation = `{ test: 'test' }`
+const simpleExpectation = `{\n  "test": "test"\n}`
 
 describe('CLI invocation', async () =>
 {

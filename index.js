@@ -1,6 +1,9 @@
 #!/usr/bin/env node
+
+//@ts-check
+
 import { inspect } from 'util'
-import getStdin from 'get-stdin'
+import getStream from 'get-stream'
 
 if (process.stdout.setEncoding)
 {
@@ -9,8 +12,8 @@ if (process.stdout.setEncoding)
 
 !(async () =>
 {
-    const input = await getStdin()
-
+    const input = await getStream(process.stdin)
+    
     try
     {
         const parsed = JSON.parse(input)
