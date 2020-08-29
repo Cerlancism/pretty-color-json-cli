@@ -33,7 +33,3 @@ if (process.stdout.setEncoding)
         process.exit(1)
     }
 })()
-
-
-
-

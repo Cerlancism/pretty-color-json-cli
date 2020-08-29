@@ -16,9 +16,8 @@ describe('CLI invocation', async () =>
         assert.equal(command.status, 0)
     })
 
-    it(`should print ${simpleExpectation} on stdout`, () =>
+    it(`should print\n${simpleExpectation}\non stdout`, () =>
     {
         assert.equal(command.stdout.toString().trim(), simpleExpectation)
     })
 });
-
